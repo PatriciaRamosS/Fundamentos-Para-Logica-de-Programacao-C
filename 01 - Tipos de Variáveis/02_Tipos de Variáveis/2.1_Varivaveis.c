@@ -1,4 +1,4 @@
-/*Como Usar Acentos*/
+//Como Escrever na Tela
 
 
 //Bibliotecas Padrão 
@@ -10,15 +10,24 @@
 
 #include<locale.h> //necessário para usar setlocale
 
+    //Variáveis Globais
+    int   e = 47;
+    float f = 6.84;
+    char  g = 'B';
+
 void main() //função principal
 
 {//Início do corpo da função principal
 
-    // Utilizamos a função setlocale() para fazer a adaptação do programa ao idioma desejado.
-    setlocale(LC_ALL, "Portuguese");
+    //Variáveis Locais
+    int   a = 5;
+    float b = 5.5;
+    char  c = 'p';
 
-    //Resultado
-    printf("Olá"); 
+    //Escaneie um valor inteiro no Endereço de memória na variável a 
+    scanf("%d", &a); 
+    
+    //& -> Endereço na memória
 
     return 0; //valor de retorno das função main
 
