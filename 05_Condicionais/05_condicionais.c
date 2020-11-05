@@ -17,6 +17,8 @@ void main()
     printf("Entre com o valor da variável B: \n");
     scanf("%d", &b);
 
+
+    //Se A for igual  B
     if(a == b)
     {
         printf("As variáveis tem o mesmo valor!!");

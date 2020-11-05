@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include<locale.h> //necessário para usar setlocale
 
+
 //Função principal do programa
 void main(){
 
     // Utilizamos a função setlocale() para fazer a adaptação do programa ao idioma desejado.
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "");
 
     //Definindo Variáveis
     int a = 6, b = 4;
