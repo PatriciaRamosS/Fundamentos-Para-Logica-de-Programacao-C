@@ -14,6 +14,9 @@ void main() //função principal
 
 {//Início do corpo da função principal
 
+    // Utilizamos a função setlocale() para fazer a adaptação do programa ao idioma desejado.
+    setlocale(LC_ALL, "Portuguese");
+
     //Variáveis Locais
     int a = 5;
     float b = 5.5;

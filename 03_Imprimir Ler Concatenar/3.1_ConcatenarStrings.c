@@ -9,7 +9,7 @@ void main()
     // Utilizamos a função setlocale() para fazer a adaptação do programa ao idioma desejado.
     setlocale(LC_ALL, "Portuguese");
 
-    char str[11]="Curso";
+    char str[11]="Curso"; //String é uma variável que armazena uma cadeia de caracteres
 
     //Concatenar a string " de C" com o conteúdo da string str
     //Sintaxe

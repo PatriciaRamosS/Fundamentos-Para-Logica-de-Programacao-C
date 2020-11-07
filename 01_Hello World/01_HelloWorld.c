@@ -20,6 +20,11 @@ void main() //função principal
     //Resultado
     printf("Olá Mundo"); 
 
+    system("pause"); //Pausa da Tela - Somente para Windows
+                     //Para se utilizar system("pause"); é nescessário 
+                     //incluir a biblioteca #include <stdlib.h>
+
+
     return 0; //valor de retorno das função main
 
  } //Fim do corpo da função principal e fim do programa
