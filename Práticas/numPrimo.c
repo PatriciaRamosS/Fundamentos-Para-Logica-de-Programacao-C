@@ -2,19 +2,29 @@
 
 int main()
 {
-    int N=1, i;
+    int num, i, aux = 0;
+
+    puts("Digite um valor para saber se ele eh primo: ");
+    scanf("%d", &num);
     
-    for(N=1;N<=1000;N++)
+    for(i=1;i<=num;i++)
     {
-        if(N%i==1)
+        //Contando quantas vezes ouve divisibilidade
+        if(num%i==0)
         {
-            N++; 
-            i++;
+            aux++;
         }
-        else
-        {
-            printf("%d nao e primo\n",N);
-        }
+        printf("%d / %d tem resto = %d\n", i, num%i);        
     }
+    if(aux == 2)
+    {
+        puts("O numero eh primo!");
+    }
+    else
+    {
+        puts("O numero nao eh primo!");
+        printf("Pois ele tem %d divisores.", aux);
+    }
+    
     return 0;
 }
