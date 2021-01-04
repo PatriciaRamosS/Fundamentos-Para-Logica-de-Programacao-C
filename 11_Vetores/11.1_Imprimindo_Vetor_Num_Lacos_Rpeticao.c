@@ -15,7 +15,9 @@ void main ()
 
     for(cont=0; cont<TAM; cont++)
     {
-        printf("\n Posição [%d]: %d\n", cont, vetor[cont]);
+        //O resultado sera a posicao que e a variavel cont
+        //O cont corresponde ao indíce de cada posição de cada variével
+        printf("\n Posicao [%d]: %d\n", cont, vetor[cont]);
     }
     
     system("pause");

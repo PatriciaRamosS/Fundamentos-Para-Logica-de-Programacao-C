@@ -23,7 +23,7 @@ void main ()
 
     printf("\n Posição 0: %d\n", vetor[0]);
     printf("\n Posição 1: %d\n", vetor[1]);
-    printf("\n Posição 2: %d\n\n\n", vetor[2]);
+    printf("\n Posição 2: %d\n", vetor[2]);
     
     system("pause");
 }
