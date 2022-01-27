@@ -21,7 +21,7 @@ void main() //função principal
     printf("Olá Mundo"); 
 
     system("pause"); //Pausa da Tela - Somente para Windows
-                     //Para se utilizar system("pause"); é nescessário 
+                     //Para se utilizar system("pause"); é necessário 
                      //incluir a biblioteca #include <stdlib.h>
 
 
